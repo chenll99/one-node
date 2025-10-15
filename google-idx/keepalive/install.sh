@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # 1. pull docker image
-docker pull jlesage/firefox
+docker pull ghcr.io/eooce/firefox:latest
 
 # 2. init directory
 mkdir -p app/firefox/idx
